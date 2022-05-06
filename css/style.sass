@@ -1,0 +1,82 @@
+
+    $blueish:#828DF3
+    $darkred:#B43232
+    $lightred : rgba(214, 69, 69,0.6)
+.header 
+    grid-area: header
+    padding: 0px
+    text-align: left
+    background: $darkred
+    color: white
+    height: 60px
+    width: 100%
+
+body
+    margin: 0
+
+.footer 
+    grid-area: footer
+    padding: 20px
+    text-align: left
+    color: white
+    background: black
+
+.grid-container 
+    margin: 0
+    padding: 0
+    display: grid
+    width: 100%
+    grid-template-areas:'header header header header header header''info info info info info info''main main main main main side''footer footer footer footer footer footer'
+
+button
+    background-color: $blueish
+    border:2px solid $blueish
+    border-width: 3px
+    position: relative
+    left: 10%
+    top: -25px
+    margin-right: 5%
+    padding: 0
+    border-radius: 10px
+    width: 10%
+    height: 40px
+
+button:hover
+    background-color: $darkred
+
+button:hover a
+    color: white
+
+a
+    text-decoration: none
+    color: black
+
+.but-cont
+    width: 90%
+    position: relative
+    left: 10%
+    top: 0%
+
+
+.current
+    background-color: $darkred
+    border: $darkred
+
+.current:hover
+    border:2px solid $blueish
+
+.current a
+    color: white
+
+
+.info
+    width: 100%
+    color: black
+    background-color: $lightred
+    text-align: center
+
+.footer
+    height: 60px
+    color: black
+    background-color: $darkred
+    

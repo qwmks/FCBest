@@ -1,0 +1,209 @@
+.header {
+    grid-area: header;
+    padding: 0px;
+    text-align: left;
+    background: #B43232;
+    color: white;
+    height: 60px;
+    width: 100%;
+
+}
+.greatplayers{
+    color: #EBE7DB;
+    background-color: #D64545;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 100px;
+    font-weight: bold;
+    font-size: 43;
+}
+.headimage{
+    position: relative;
+    text-align: center;
+}
+.headimage h4{
+    color: #828DF3;
+    background-color: #D64545;
+    width:fit-content;
+    height:fit-content;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 36;
+    border: black solid 2px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.teamlist{
+    background-color: #EBE7DB;
+    color:#13336E;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.teamlist h2{
+    font-size: 32;
+}
+.infoNews{
+    color: #B43232;
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    border: 2px solid black;
+}
+.newspiece{
+	display: flex;
+    flex-wrap: nowrap;
+}
+.map{
+    width: 50%;
+}
+.col1T{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #566FB8;
+    width: 33%;
+    text-align: center;
+}
+.newstext{
+    width:50%;
+    color:#13336E;
+    text-align: center;
+    border: black solid 1px;
+}
+.newstext h2{
+    text-align: left;
+    font-size:medium;
+}
+.columnteam{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.columnteam input,textarea{
+    margin-left: 5%;
+    margin-right: 5%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: black solid 1px;
+}
+.columnteam label{
+    margin-left: 5%;
+    margin-right: 5%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+#submit{
+    color: white;
+    background-color: #B43232;
+    height: 30px;
+    border: none;
+}
+
+.column {  
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.col1{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 80%;
+}
+.col1 h1{
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    border: 0px dashed #f69c55;
+    color: #828DF3;
+    background-color: #B43232;
+    padding: 0px;margin: 0px;
+}
+body{
+    margin: 0;
+}
+.col1 p{
+    text-align: left;
+    width: 80%;
+}
+.col2{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 20%;
+}
+.footer {
+    grid-area: footer;
+    padding: 20px;
+    text-align: left;
+    color: white;
+    background: black;
+}
+button{
+    background-color: #828DF3;
+    border:2px solid #828DF3;
+    border-width: 3px;
+    position: relative;
+    left: 10%;
+    top: -25px;
+    margin-right: 5%;
+    padding: 0;
+    border-radius: 10px;
+    width: 10%;
+    height: 40px;
+}
+button:hover{
+    background-color: #B43232;
+}
+button:hover a{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: black; 
+}
+
+.current{
+    background-color:#B43232 ;
+    border: #B43232;
+}
+.current:hover{
+    border:2px solid #828DF3;
+}
+.current a{
+    color: white;
+}
+
+.info{
+    width: 100%;
+    color: black;
+    background-color: rgba(214, 69, 69,0.6);
+    text-align: center;
+}
+.footer{
+    height: 50px;
+    color: black;
+    background-color: #B43232;
+}
+.footer img{
+    position: relative;
+    top: 10px;
+    left:5px;
+}
